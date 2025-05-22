@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz App</h1>
+      <!-- Area untuk menampilkan pertanyaan -->
+      <div id="question-container" class="question-container">
+        <p id="question">Question text goes here</p>
+      </div>
+      <div id="answer-buttons" class="answer-buttons">
+        <!--Jawaban dynamic dari javascript-->
+      </div>
+
+      <button id="next-btn" class="next-btn">Next Question</button>
+
+      <!--menampilkan skor-->
+      <div id="result-container" class="result-container" style="display: none">
+        <p id="score">Your Score : 0 / 0</p>
+        <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__copyright">
+        © 2025 Radif Hibatillah Copyright &mdash; Created by
+        <span style="font-weight: bold; text-decoration: underline"> Radif Hibatillah. </span>
+      </div>
+      <div class="footer__social">
+        <a href="https://instagram.com/radifhibatillah" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="uil uil-instagram"></i>
+        </a>
+        <a href="https://github.com/RadifHibatillah" target="_blank" rel="noopener" aria-label="Github">
+          <i class="uil uil-github"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
